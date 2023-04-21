@@ -1,6 +1,6 @@
 package br.com.spotyjava.model.audio.music;
 
-public enum MusicGenres {
+public enum MusicalGenres {
     ROCK,
     POP,
     CLASSICAL,

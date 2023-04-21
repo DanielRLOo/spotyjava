@@ -1,24 +1,27 @@
 package br.com.spotyjava.model.audio;
 
-public class Audio implements Playable{
+import br.com.spotyjava.model.Model;
+
+public class Audio extends Model implements Playable{
 
     // Name of the audio
-    private String name;
+    protected String name;
 
     // Types are defined in AudioType.java
-    private AudioTypes type;
+    protected AudioTypes type;
 
     // Formats are defined in AudioFormat.java
-    private AudioFormats format;
+    protected AudioFormats format;
 
     // Duration in seconds
-    private int duration;
+    protected int duration;
 
     // Audio has been listened to
-    private boolean listened = false;
+    protected boolean listened = false;
 
     // Protected constructor to prevent instantiation
     protected Audio(String name, AudioTypes type, AudioFormats format, int duration) {
+        super();
         this.name = name;
         this.type = type;
         this.format = format;
