@@ -1,18 +1,13 @@
-## Getting Started
+## Learning Project: VERY Siple song, audiobook, podcast "player"
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Description
+This is a very simple project to learn how to program in java. 
+It is a simple "player" for songs, audiobooks and podcasts. It is a console application, so it is not very user friendly. It is not intended to be used by anyone, but it is a good example of how to use the java language.
 
-## Folder Structure
+### How to use
 
-The workspace contains two folders by default, where:
+#### 1. Download the project
+Download the project from github. You can do this by clicking the green button "Code" and then "Download ZIP". Unzip the file and open the folder in your IDE.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+#### 2. Run the project
+Run the project in your IDE. You can do this by clicking the green button "Run" in your IDE. If you are using IntelliJ, you can also run the project by pressing the green arrow in the top right corner of the screen.
